@@ -1,0 +1,32 @@
+.input-container{
+    float: left;
+    width:50%;
+    height:40px;
+}
+
+.input-icon{
+    position: absolute;
+    left: 25px;
+    top: calc(50% - 0.5em); /* Keep icon in center of input, regardless of the input height */
+    color:#c0c9e0;
+}
+
+ input{
+    padding-left: 45px;
+    border-radius: 30px;
+    height:40px;
+    width: 65%;
+    border-color: rgba(228,234,244,255);
+    color:#c0c9e0;
+    border-style: solid;
+    background-color:#f2f6ff;
+ }
+
+ ::placeholder {
+    color:#c0c9e0;
+  }
+
+ .input-wrapper{
+    position: absolute;
+    width: 10%;
+ }

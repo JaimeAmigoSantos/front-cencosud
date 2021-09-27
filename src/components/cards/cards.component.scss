@@ -1,0 +1,88 @@
+.feeds-cards-container {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(66,78,122,255);
+}
+
+.feeds-card {
+    float: left;
+    width: 45%;
+    height: 200px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    background-color:#FFFFFF;
+    border-radius: 15px;
+    margin-right: 20px;
+    -moz-box-shadow: 1px 1px 10px  rgba(14, 1, 1, 0.199);
+    -webkit-box-shadow: 1px 1px 10px  rgba(14, 1, 1, 0.199);
+    box-shadow: 1px 1px 10px  rgba(14, 1, 1, 0.199);
+}
+
+.feeds-square {
+    width: 98%;
+    height: 98%;
+    border-radius: 15px;
+    padding:1px;
+    border:0.3em solid #FFFFFF;
+    background-color:#FFFFFF;
+}
+
+.feeds-icons-container-left{
+    float: left;
+    width: 50%;
+    text-align:left;
+    padding-top: 20px;
+}
+
+.feeds-icons-container-right{
+    float: left;
+    width: 50%;
+    text-align:right;
+    padding-top: 20px;
+    a{
+        color:rgba(182,191,225,255);
+        &:hover{
+            color:rgba(162,131,226,255);
+        }
+
+    }
+}
+
+.circular-user-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 55%;
+}
+
+.circular-user-icon-container {
+    float: left;
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+}
+
+.circular-user-text-container-left {
+    float: left;
+    height: 25px;
+    padding-top: 6px;
+    text-align: left;
+}
+
+.circular-user-text-container-right {
+    float: left;
+    height: 25px;
+    padding-top: 6px;
+    width: 100%;
+    text-align: right;
+}
+
+.feeds-icon-like-active{
+    color: rgba(255,86,119,255);
+    width: 25px !important;
+    height: 25px !important;
+}

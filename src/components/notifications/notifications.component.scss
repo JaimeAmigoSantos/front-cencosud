@@ -1,0 +1,22 @@
+.notifications-container{
+    float: left;
+    width:40px;
+    height:40px;
+    padding-left:20px
+}
+
+.notifications-circle{
+    border-radius: 50%;
+    display: inline-block;
+    height:40px;
+    width: 40px;
+    border-color: rgba(228,234,244,255);
+    border-style: solid;
+ }
+
+ .notifications-icon{
+    text-align: center;
+    padding-top:12px;
+    padding-left: 12px;
+    color:#a4b4e1;
+}

@@ -1,0 +1,23 @@
+.upload-container{
+    float: left;
+    width:40px;
+    height:auto;
+    padding-left:10px
+}
+
+.upload-circle{
+    border-radius: 50%;
+    display: inline-block;
+    height:40px;
+    width: 40px;
+    border-color: rgba(214,237,255,255);
+    background-color:#58b9fe;
+    border-style: solid;
+ }
+
+ .upload-icon{
+    text-align: center;
+    padding-top:11px;
+    padding-left: 10px;
+    color:#FFFFFF;
+}
